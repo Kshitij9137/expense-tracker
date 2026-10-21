@@ -3,7 +3,7 @@ import csv
 import sqlite3
 from typing import List, Optional
 
-from .models import (Expense, ValidationError, clean_category, parse_date,
+from .models import (Expense, clean_category, parse_date,
                      to_cents)
 
 
